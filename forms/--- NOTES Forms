@@ -1,0 +1,75 @@
+
+    <head>
+        <title>Some Forms</title>
+    </head>
+
+
+        <form>
+            <input type="text">
+            <button>Submit!</button>
+        </form>
+
+* Need a way to access the element in the form: "id" is for css; "name" is to get value
+
+<input type="text" name="fullname">
+
+* Give it a label. Tag is for semantics, css. 
+
+<label for="fullname">Full name:</label>
+
+* Typical Properites:
+placeholder="Your name"
+minlength="3"
+autofocus
+
+* Other types of input:
+<label for="fullname">Full name:</label>
+<input name="fullname" type="text" autofocus placeholder="your name">
+<label for="passwd">Password:</label>
+<input name="passwd" type="password">
+
+* Add a tad of style:
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+
+* More:
+<div>
+    <input type="date">
+    <input type="color">
+    <input type="email" name="myemail">
+</div>
+
+<div>
+    Favorite color?
+    <input name="color" type="radio" value="red"> Red
+    <input name="color" type="radio" value="green"> Green
+    <input name="color" type="radio" value="blue"> Blue
+    <input name="color" type="radio" value="other"> Other
+</div>
+
+* Property of checked
+-----------------------------------------------------------------------
+
+Switch to form-example":
+
+<fieldset>
+<legend>
+
+<textarea name="message" rows="10" cols="30">
+    The cat was playing in the garden.
+</textarea>
+
+<select></select>
+option: multiple, selected
+
+-----------------------------------------------------------------------
+
+Form Attributes
+
+target=_blank
+target=_self (default)
+
+action="/greet/marc/
+
+method=GET/POST
+
+

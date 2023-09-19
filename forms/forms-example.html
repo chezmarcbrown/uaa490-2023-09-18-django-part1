@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+        <title>Some Forms</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <fieldset>
+                    <legend>The Skinny:</legend>
+                    <label for="fullname">Full name:</label>
+                    <input name="fullname" type="text" autofocus placeholder="your name">
+                    <label for="passwd">Password:</label>
+                    <input name="passwd" type="password">
+                    <label for="profile">Profile:</label>
+                    <textarea name="profile" rows="4" cols="50">This is where you can tell us about yourself...
+                    </textarea>
+                </fieldset>
+            </div>
+
+            <div>
+                <label for="breweries">Choose a brewery:</label>
+                    <select multiple name="breweries">
+                        <option value="denali">Denali</option>
+                        <option value="matanuska">Matnuska</option>
+                        <option value="fortyninth">Fourty-Ninth</option>
+                        <option value="turnagain">Turagain</option>
+                        <option value="kingstreet">King Street</option>
+                    </select>
+            </div>
+
+            <button>Submit!</button>
+        </form>
+    </body>
+</html>
